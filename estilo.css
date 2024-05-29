@@ -1,0 +1,490 @@
+/********************************************Geral****************************************************/
+
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root{
+   --cor0:#c5ebd6;
+   --cor1:#83e1ad;
+   --cor2:#3ddc84;
+   --cor3:#2fa866;
+   --cor4:#1a5c37;
+   --cor5:#063d1e;
+   --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+   --fonte-android:'Android', cursive;
+   
+}
+footer .border-top{
+    background-color:black;
+   }
+   footer {
+    color: black;
+    background-color:var(--cor2);
+}
+.wrapper{
+    min-height: 100vh;
+}
+ body{
+ 
+    min-width: 375px;
+    background-color:#F2F2F2 ;
+ }
+ 
+header{
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-color: var(--cor5);
+    min-height: 150px;
+    padding-top: 40px;
+    
+}
+header>p{
+    color:white;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+     text-shadow:  3px 0px rgba(0, 0, 0, 0.425);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header>h1{
+    text-align: center;
+    color:rgb(248, 237, 237);
+    margin-bottom: 20px;
+    text-decoration: solid;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.425)
+}
+nav{
+    font-family:  var(--fonte-padrao);
+    font-size: 17px;
+    background-color:var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.199);
+}
+
+   
+nav>a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition-duration:0.5s ;
+}
+
+nav>a:hover{
+    background-color: var(--cor3);
+    color:var(--cor5)
+}
+
+
+main h1{
+   
+    color:var(--cor5);
+    font-family: var(--fonte-android);
+    
+}
+main h2{
+    text-align: center;
+    font-family: var(--fonte-android);
+    color:var(--cor4);
+    font-size: 1.3em;
+}
+
+main h3{
+  text-align: center;
+  font-family: var(--fonte-android);
+  color:var(--cor4);
+  font-size: 1.0em;
+}
+
+main h4{
+  text-align: center;
+  font-family: var(--fonte-android);
+  color:var(--cor4);
+  font-size: 0.95em;
+}
+
+main a{
+    background-color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 3px 6px;
+}
+
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,-1.925)!important;
+}
+
+div> a{
+    color: white;
+    text-align:center;
+    
+}
+
+div> ul> li{
+  
+  /*color: rgb(12, 12, 12);*/
+  padding: 1px;
+  font-family: var(--fonte-padrao);
+  line-height: 1px;
+
+}
+
+main li>a{
+
+  background-color: white;
+  color: #070707
+
+}  
+
+main ul>h4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main li>a:hover{
+  background-color: #3ddc84;
+}
+marquee a{
+  background-color: #070707;
+  align-self: center;
+  }
+
+  main marquee{
+    padding: 8px;
+  }
+ 
+
+  
+  
+ 
+
+
+    /***************************************Principal***********************************************************/
+
+
+#titulo_entrar{
+  color: #1b1d1c;
+  text-align: center;
+}
+
+
+
+#ligacoes> a{
+  margin-left:500px;
+    text-align : center;
+    font-family: var(--fonte-android);
+    color:black;
+    font-size: 14px;
+    text-decoration: none;
+    
+   
+}
+ 
+
+.pesquisa_campo {
+  padding: 7px 15px;
+  border: none;
+  font-size: 12px;
+  color: black;
+  border-radius: 7px;
+  text-transform: uppercase;
+  background: white;
+}
+
+
+.shadow__btn {
+  padding: 7px 7px;
+  border: none;
+  font-size: 12px;
+  color: black;
+  border-radius: 7px;
+  font-family: var(--fonte-android);
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background: white;
+  
+}
+
+  
+ 
+  
+
+
+
+/********************************************<Sobrenós>**********************************************/
+
+#lnksobre> a{
+  margin-left:500px;
+   text-align : center;
+   font-family: var(--fonte-android);
+   color:black;
+   font-size: 14px;
+   text-align: center;
+  
+}
+
+
+
+/********************************************<formulario>**********************************************/
+
+
+.btncancelar {
+  padding: 7px 7px;
+  border: none;
+  font-size: 12px;
+  color: rgb(245, 242, 242);
+  border-radius: 7px;
+  font-family: var(--fonte-android);
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background: rgb(139, 8, 9);
+  float: right;
+  margin-right: 15px;
+}
+
+.btnsubmeter {
+  padding: 7px 7px;
+  border: none;
+  font-size: 12px;
+  color: rgb(247, 240, 240);
+  border-radius: 7px;
+  font-family: var(--fonte-android);
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background: var(--cor4);
+  margin-left: 10px;
+ 
+  }
+
+  
+  #ligacoes_formulario> a{
+    background-color: var(--cor4);
+    margin-left:600px;
+      font-family: var(--fonte-android);
+      color:white;
+      font-size: 14px;
+      
+     
+  }
+
+  .formulario_div{
+   
+    border: #070707;
+    background-color: var(--cor1);
+    color: #08381c;
+    width: 50%;
+    margin-left: 300px;
+    
+
+}
+
+#titulo_form{
+  margin-left: 300px;
+    width: 50%;
+    color: var(--cor5);
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+.corpo_form{
+  background-color:white;
+ }
+
+
+
+/******************************************<Entrar>***********************************************/
+.flexivel{
+            
+  display: flex;
+ 
+}
+
+.conteiner{
+     max-width: 1250px;
+     margin: 0 auto;
+    border: 1px solid black;
+     flex-wrap: wrap;
+     padding: 30px;
+     padding-bottom: 5px;
+     padding-top: 5px;
+     border-left: none;
+     border-bottom: none;
+     border-right: none;
+     border-top: none;
+}
+
+
+.containter{
+     background-color: var(--cor0);
+     max-width: 1250px;
+     margin: 0 auto;
+    border: 1px solid black;
+     flex-wrap: wrap;
+     padding: 30px;
+     padding-bottom: 15px;
+     padding-top: 10px;
+     border-bottom: none;
+     border-left: none;
+     border-right: none;
+     border-top: none;
+}
+
+.content{
+  background-color: var(--cor0);
+   max-width: 670px;
+   margin: 0 auto;
+  border: 1px solid black;
+   flex-wrap: wrap;
+   padding: 10px;
+   padding-bottom: 20px;
+   padding-top: 5px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   border-bottom: none;
+  
+}
+
+.filosofia{
+  background-color: var(--cor0);
+   max-width: 1300px;
+   margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 8px;
+   flex-wrap: wrap;
+   padding: 37px;
+   padding-bottom: 30px;
+   padding-top: 20px;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   border-bottom: none;
+  
+}
+
+.destaques{
+margin-top: 20px;
+}
+.destaques h2{
+width: 100%;
+background-color: var(--cor1);
+}
+.melhores{
+margin-top: 15px;
+}
+.informatica{
+margin-top: 15px
+}
+.romance{
+margin-top: 15px
+}
+
+.História h3{
+margin-top: 30px;
+width: 100%;
+background-color: var(--cor1);
+}
+
+.flex{
+          
+display: flex;
+
+}
+
+.conteudo{
+background-color: var(--cor0);
+   max-width: 100%;
+   margin: 0 auto;
+  border: 1px solid black;
+   flex-wrap: wrap;
+   padding: 37px;
+   padding-bottom: 10px;
+   padding-top: 15px;
+   border-left: none;
+   border-bottom: none;
+   border-right: none;
+   border-top: none;
+   justify-self: center;
+  
+}
+.Diversidades{
+  background-color: var(--cor0);
+     max-width: 1350px;
+     margin: 0 auto;
+    border: 1px solid black;
+     flex-wrap: wrap;
+     padding: 10px;
+     padding-bottom: 10px;
+     padding-top: 0px;
+     border-radius: 5px;
+     border-left: none;
+     border-bottom: none;
+     border-right: none;
+     border-top: none;
+     justify-self: center;
+    
+}
+
+
+
+.cleyton{
+  height: 150px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.categoria{
+  height: 260px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+
+ background-color: white;  
+}
+
+/*************************************************TESTE*******************************************/
+
+
+
+
+
+.Mulhovo ul a:hover{
+  background-color: rgb(247, 247, 248);
+}
+
+
+.Mulhovo ul>li{
+line-height: 15px;
+font-size: 12px;
+}
+ 
+.Mulhovo a{
+  background-color: var(--cor0);
+  color: #000;
+}
+
+
+
+   
+  .Mulhovo{
+
+    width: 365px;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+  }
+
